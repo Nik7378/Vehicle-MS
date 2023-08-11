@@ -1,0 +1,170 @@
+h2{
+    color: chocolate;
+} 
+
+h1{
+    color: chocolate;  
+    text-decoration: underline;
+}
+
+hr{
+    border-top: 2px solid chocolate;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ta{
+    border: 2px solid chocolate;
+}
+
+.view-table th{
+    background-color: chocolate;
+    color: whitesmoke;
+    font-family: Comic Sans MS, Comic Sans, cursive	;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 5px;
+    border-top: none;
+}
+
+.view-table td:first-child, th:first-child {
+    border-left: none;
+}
+
+.view-table td{
+    font-family: Comic Sans MS, Comic Sans, cursive	;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.view-table td, th {
+    border-left: 3px solid chocolate;
+    border-top: 3px solid chocolate;
+}
+
+.view-table{
+    margin-top: 30px;
+    margin-bottom: 150px;
+    border: 3px solid chocolate;
+    border-collapse:separate;
+    border-radius: 10px;
+}
+
+table, th, td {
+    border: 3px solid black;
+    border: none;
+    margin: 1px;
+    text-align: justify;
+    padding-left: 2px;
+}
+
+th{
+    background-color: #FDDF95;
+    color: rgb(255, 72, 0);
+    font-family: Comic Sans MS, Comic Sans, cursive	;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+td{
+    padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Comic Sans MS, Comic Sans, cursive	;
+    background-color: chocolate;
+    color: white;
+    padding: 2px 20px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+div{
+    border: 3px solid chocolate;
+    border-radius: 30px;
+    display: inline-block;  
+    margin-bottom: 10px;
+    margin-left: 7px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Comic Sans MS, Comic Sans, cursive	;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 12px 20px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    text-align: justify;
+    font-family: Comic Sans MS, Comic Sans, cursive	;
+    padding: 5px;
+}
+
+input[type=text]{
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    text-align: justify;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid chocolate;  
+    font-family: Comic Sans MS, Comic Sans, cursive	;
+}
+
+input[type=email]{
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    text-align: justify;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid chocolate;  
+    font-family: Comic Sans MS, Comic Sans, cursive	;
+}
+
+input[type=submit]{
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    font-family: Comic Sans MS, Comic Sans, cursive	;
+    background-color: chocolate;
+    color: white;
+    padding: 2px 20px;
+    border-radius: 10px;
+}
+
+input[type=date]{
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: Comic Sans MS, Comic Sans, cursive	;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+}
+
+select{
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: Comic Sans MS, Comic Sans, cursive	;
+    width: 100%;
+    border: 2px solid chocolate;
+
+    box-sizing: border-box;
+}
+

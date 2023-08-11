@@ -1,0 +1,33 @@
+{% load static %}
+{% if user.is_superuser or user.is_staff %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/external.js' %}"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle MS | Update</title>
+</head>
+<body>
+<center>
+<h2>--------------Update Vehicle--------------</h2>
+<hr><br>
+<form method="POST" action="">
+    {% csrf_token %}
+    <div>
+        <table>
+        {{form}}
+        </table>
+        <br>
+        <input type="submit" class="btn btn-primary text-uppercase" value="Update Vehicle"/>
+    </div>
+    <br>
+</form>
+<a href="/add">+ Add New Vehicle</a>
+<a href="/">&#128220; View All Vehicles</a>
+</center>
+</body>
+</html>
+{% else %}
+{% include "error.html" %}
+{% endif %}       
